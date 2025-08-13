@@ -56,7 +56,7 @@ class _SalesOrderListScreenState extends State<SalesOrderListScreen>
         builder: (context, provider, child) {
           return Column(
             children: [
-              _buildFilterChips(provider),
+              // _buildFilterChips(provider),
               Expanded(
                 child: SlideTransition(
                   position: _slideAnimation,

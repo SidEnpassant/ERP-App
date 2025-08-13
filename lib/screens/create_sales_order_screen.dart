@@ -242,7 +242,8 @@ class _CreateSalesOrderScreenState extends State<CreateSalesOrderScreen>
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: Theme.of(context).primaryColor,
+                    color: Colors.greenAccent.shade400,
+                    //Theme.of(context).primaryColor,
                   ),
                 ),
               ],

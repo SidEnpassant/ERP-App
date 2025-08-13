@@ -163,6 +163,14 @@ class SalesOrderProvider extends ChangeNotifier {
       _showAlert = true;
       _alertMessage =
           '${highValueOrders.length} high-value orders require attention!';
+      // Example: Set color info for alert message (store as a separate variable)
+      // You can define an additional variable to hold the color, e.g.:
+      // Color _alertColor = Colors.red;
+      // If you want to include color info in the message itself, you could use a map:
+      // _alertMessage = {
+      //   'text': '${highValueOrders.length} high-value orders require attention!',
+      //   'color': Colors.red,
+      // };
       notifyListeners();
     }
   }

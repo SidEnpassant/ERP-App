@@ -163,7 +163,10 @@ class _DashboardScreenState extends State<DashboardScreen>
               ),
               title: const Text(
                 'AI Alert',
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               subtitle: Text(provider.alertMessage),
               trailing: IconButton(
